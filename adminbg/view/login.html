@@ -1,0 +1,9 @@
+<php>$bg=json_decode(db("plugin")->where("name = 'adminbg'")->value("config"),true)['background_url'];</php>
+<script>
+	var bg=""
+	$("html").css("background","url('/upload/{$bg}')");
+	$("body").css("background","none")
+	$("#input_username").css("background","none")
+    $("#input_userpassword").css("background","none")
+    $(".form-control").css("background","none")
+</script>
