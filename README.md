@@ -9,3 +9,6 @@
 
 >@Harris
 >mmnnbn@126.com
+
+#注意
+安装前请到public/themes/admin_simpleboot3/admin/login.html添加写入权限
